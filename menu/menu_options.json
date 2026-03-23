@@ -1,0 +1,46 @@
+{
+	"menu_id" : "CNGJS_options_menu",
+	"parent_menu_id" : "blt_options",
+	"title" : "CNGJS_options_menu_title",
+	"description" : "CNGJS_options_menu_desc",
+	"back_callback" : "CNGJS_callback_save",
+	"items" : [
+		{
+			"type" : "slider",
+			"show_value" : true,
+			"display_precision" : 0,
+			"id" : "active_job_amount",
+			"title" : "CNGJS_options_menu_active_job_amount_title",
+			"description" : "CNGJS_options_menu_active_job_amount_desc",
+			"callback" : "CNGJS_callback_active_job_amount",
+			"value" : "active_job_amount",
+			"default_value" : 10,
+			"max" : 40,
+			"min" : 1,
+			"step" : 1
+		},
+		{
+			"type" : "slider",
+			"show_value" : true,
+			"display_precision" : 0,
+			"id" : "active_job_timer",
+			"title" : "CNGJS_options_menu_active_job_timer_title",
+			"description" : "CNGJS_options_menu_active_job_timer_desc",
+			"callback" : "CNGJS_callback_active_job_timer",
+			"value" : "active_job_timer",
+			"default_value" : 25,
+			"max" : 60,
+			"min" : 10,
+			"step" : 1
+		},
+		{
+			"type" : "toggle",
+			"id" : "normalize_new_job_timers",
+			"title" : "CNGJS_options_menu_normalize_new_job_timers_title",
+			"description" : "CNGJS_options_menu_normalize_new_job_timers_desc",
+			"callback" : "CNGJS_callback_normalize_new_job_timers",
+			"value" : "normalize_new_job_timers",
+			"default_value" : false
+		}
+	]
+}
