@@ -1,0 +1,17 @@
+{
+	"name": "Crime.Net Generated Job Settings [U10+]",
+	"description": "You can control how jobs are generated!\n\nThis is still in testing, you can only control\n*How many jobs will generate\n*How long each spawn job should stay on Crime.Net\n*Remove RNG between each jobs creation, making them spawn more consistent and quickly\n\nYOU WILL NEED TO RELAUNCH THE GAME OR ENTER A HEIST TO MAKE CHANGES APPLY\n",
+	"author": "E_Seir",
+	"contact": "E_Seir on Discord",
+	"version": "beta_4",
+	"hooks": [
+    {
+		"hook_id": "lib/managers/menumanager",
+		"script_path": "lua/mod_settings.lua"
+    },
+    {
+		"hook_id": "lib/managers/crimenetmanager",
+		"script_path": "lua/main_mod.lua"
+    }
+  ]  
+}

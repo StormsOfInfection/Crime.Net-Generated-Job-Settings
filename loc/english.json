@@ -1,0 +1,13 @@
+{
+	"CNGJS_options_menu_title": "Crime.Net Generated Job Settings",
+	"CNGJS_options_menu_desc": "These changes will not apply until you restart your game or exit out a heist.",
+	
+	"CNGJS_options_menu_active_job_amount_title": "Amount of Generated Active Jobs",
+	"CNGJS_options_menu_active_job_amount_desc": "Choose how many jobs do you want spawned in on Crime.Net.\nDefault is 10.",
+	
+	"CNGJS_options_menu_active_job_timer_title": "Timer for Active Jobs Expiration",
+	"CNGJS_options_menu_active_job_timer_desc": "Choose how long should jobs stay on Crime.Net before they go away.\nDefault is 25.",
+	
+	"CNGJS_options_menu_normalize_new_job_timers_title": "Constant New Job Spawning Timer",
+	"CNGJS_options_menu_normalize_new_job_timers_desc": "If checked, new active jobs will appear more constant by setting the time to 1.5 seconds.\nBy default, this is turned off."
+}
